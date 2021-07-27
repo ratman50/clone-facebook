@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil facebook</title>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap  js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/6dd7ccfc27.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="all">
+         
+        <!--******************************suggestion *********************************** -->
+        <div class="suggestion container">
+            <header>
+                <h1 class="text-primary">facebook</h1>
+
+            </header>
+            <div class="row">
+                <div class="col-lg-6  ">
+                    <h2>Connexions récentes</h2>
+                    <p class="text-muted">
+                        Cliquez sur une image ou sur ajouter un compte
+                    </p>
+                    <div class="container">
+                        <div class="row images">
+                            <div class=" makh p-0">
+                                <div class="card position" style="width: 12.5rem;">
+                                    <img src="./img/moi.jpg" class="card-img-top "  alt="...">
+                                    <button type="button" class="close " data-dismiss="alert" aria-label="Close"><span aria-hidden="true"   >x</span></button>
+                                   <button class="not">
+
+                                       <span class="badge badge-danger">66</span>
+                                   </button>
+                                    <div class="card-body">
+                                        <p class="card-text">Pape Mactar Ndiaye</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class=" pl-md-2 ">
+                                <div class="card" style="width: 13rem;">
+                                    <span class="text-center py-5" style="background-color: #F0F2F5;">
+                                        <i class=" py-5 fas fa-plus-circle text-primary"></i>
+                                    </span>
+                                    <div class="card-body">
+                                        <p class="card-text text-primary">Ajouter un compte</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--******************************ENd suggestion *********************************** -->
+                <div class="col-lg-6 inscrip mt-sm-4 mt-md-0   " >
+                    <form action="action.php" method="get" class="rounded">
+                        <input class="form-control mt-2 mb-3" type="text" placeholder="Adresse email ou numéro de téléphone" aria-label=".form-control-lg example">
+                        <input class="form-control mb-3" type="text" placeholder="Mot de passe" aria-label=".form-control-lg example">
+                        <button type="submit" class="btn btn-primary w-100 ">Se connecter</button>
+                        <div class="flexible py-3  ">
+                            <a href="#" class="link-primary" >Mot de passe oublié?</a>
+
+                        </div>
+                        <hr>
+                        <div class="flexible">
+
+                            <button type="submit" class="btn btn-success mx-auto mb-3  text-center"style="font-size:1.7rem;border-radius:12px;">Créer un compte</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
