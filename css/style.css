@@ -1,0 +1,102 @@
+body 
+{
+
+    background-color: #F0F2F5;
+}
+/* all */
+.all
+{
+    padding: 50px;
+
+}
+/* end all */
+
+/* card*/
+.card
+{
+    border-radius: 10px;
+}
+.card:hover
+{
+    cursor:pointer;
+    box-shadow:3px 3px lightgray ,
+    -3px -3px lightgray
+    ;
+}
+.container .row .makh .position
+{
+    position: relative;
+}
+.container .row .makh .position button
+{
+    position: absolute;
+    background-color: transparent;
+}
+.container .row .makh .position button > span
+{
+    border-radius: 50%;
+}
+
+.container .row .makh .position button:hover > span
+{
+    font-size: 1.3rem;
+    background-color:red;
+}
+.container .row .makh .position .not
+{
+    position: absolute;
+    top: 0;
+    left: 81%;
+    border: none;
+}
+.container .row .pl-md-2 .card span i
+{
+    font-size: 3.6rem;
+}
+/* end card */
+
+/* inscription */
+.inscrip
+{
+    background-color: white;
+
+    box-shadow:2px 2px lightgrey,
+    -2px -2px lightgrey;
+    border-radius: 12px;
+}
+.inscrip form > input
+{
+    height: 75px;
+    font-size: 1.5rem;
+}
+.inscrip form > input::placeholder
+{
+    font-size: 1.8rem;
+    color: darkgrey;
+}
+.inscrip form > button
+{
+    height: 75px;
+    font-size: 1.7rem;
+    border-radius: 12px;
+}
+.flexible
+{
+    display: flex;
+}
+.flexible>a
+{
+    justify-content: center;
+}
+.inscrip form > button.btn
+{
+    justify-content: center;
+    
+}
+
+.flexible > .link-primary
+{
+    justify-content: center;
+}
+/* ENd inscription */
+
